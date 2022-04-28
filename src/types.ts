@@ -189,7 +189,7 @@ export interface BotArcApiRandomSong {
     songinfo: BotArcApiDifficultyInfoV5[]
 }
 
-// Since botarcapi_lib@1.1.5
+// Since botarcapi_lib@1.1.7
 export namespace BotArcApiContentV5 {
     export namespace User {
         export interface Info {
@@ -210,8 +210,8 @@ export namespace BotArcApiContentV5 {
             account_info: BotArcApiUserinfoV5
             best30_list: BotArcApiScore[]      // length: 30
             best30_overflow: BotArcApiScore[]  // length: 10
-            best30_songinfo: BotArcApiDifficultyInfoV5[][]          // length: 30
-            best30_overflow_songinfo: BotArcApiDifficultyInfoV5[][] // length: 10
+            best30_songinfo: BotArcApiDifficultyInfoV5[]          // length: 30
+            best30_overflow_songinfo: BotArcApiDifficultyInfoV5[] // length: 10
             recent_score: BotArcApiScore
             recent_songinfo: BotArcApiDifficultyInfoV5[]
         }

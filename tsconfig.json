@@ -67,8 +67,12 @@
     "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
 
     "outDir": "./build",
-    "rootDir": "./",
+    // "rootDir": "./",
 
     "declaration": true
-  }
+  },
+  "include": [
+    "src/**/*.ts",
+    "index.ts"
+  ]
 }
